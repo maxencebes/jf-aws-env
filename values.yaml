@@ -1,0 +1,22 @@
+global:
+  joinKey: <JOIN_KEY>
+  masterKey: <MASTER_KEY>
+
+artifactory:
+  enabled: true
+  artifactory:
+    replicaCount: 1
+  mc:
+    enabled: true
+
+xray:
+  enabled: true
+insight:
+  enabled: false
+
+distribution:
+  enabled: true
+pipelines:
+  enabled: false
+rabbitmq:
+  enabled: true
